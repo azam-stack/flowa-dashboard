@@ -1,0 +1,32 @@
+#!/bin/bash
+# Flowa Command Center — desktop launcher.
+# This .app lives inside the cloned repo; make a Finder *alias* to it on
+# your Desktop (don't move the .app itself) — see README "Skrivebordsikon".
+
+set -e
+REPO_ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
+cd "$REPO_ROOT"
+
+LOG="/tmp/flowa-dashboard.log"
+
+if [ ! -d node_modules ]; then
+  # First run: open a visible Terminal so install progress isn't invisible.
+  osascript <<EOF
+tell application "Terminal"
+  activate
+  do script "cd \"$REPO_ROOT\" && npm install && npm run dev"
+end tell
+EOF
+  exit 0
+fi
+
+if curl -s -o /dev/null --max-time 1 "http://localhost:5173"; then
+  # Already running from earlier today — just open another tab.
+  open "http://localhost:5173"
+  exit 0
+fi
+
+# Run through a login shell so nvm/homebrew-installed node/npm are on PATH —
+# a GUI-launched app doesn't inherit your Terminal's shell profile otherwise.
+nohup "${SHELL:-/bin/zsh}" -lc "cd \"$REPO_ROOT\" && npm run dev" > "$LOG" 2>&1 &
+disown

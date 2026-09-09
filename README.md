@@ -15,13 +15,22 @@ cd flowa-dashboard
 
 **Hver morgen derefter** — dobbeltklik på startfilen for dit system, eller kør den fra terminalen:
 
-- macOS: `start.command`
+- macOS: `start.command`, eller se **Skrivebordsikon (macOS)** nedenfor for et rigtigt ikon uden terminalvindue
 - Windows: `start.bat`
 - Linux / terminal: `./start.sh`
 
-Den installerer kun dependencies første gang, og åbner derefter automatisk `http://localhost:5173` i din browser. Luk terminalvinduet (eller tryk Ctrl+C) for at lukke dashboardet igen — der kører ikke noget i baggrunden når du ikke har det åbent.
+Den installerer kun dependencies første gang, og åbner derefter automatisk `http://localhost:5173` i din browser.
 
-Vil du gøre det endnu hurtigere: læg en genvej til `start.command`/`start.bat` på dit skrivebord eller i din menubar/proceslancering, så det er ét klik.
+### Skrivebordsikon (macOS)
+
+Repoet indeholder `FlowaCommandCenter.app` — en rigtig lille app, ikke bare et script. Sådan lægger du den på skrivebordet:
+
+1. Find `FlowaCommandCenter.app` i den klonede `flowa-dashboard`-mappe i Finder.
+2. Hold **⌘ + ⌥ (Option)** nede og træk den til skrivebordet — det opretter en *alias* (genvej), ikke en kopi. Selve app'en skal blive liggende i repoet.
+3. Dobbeltklik alias'et på skrivebordet hver morgen. Første gang åbner den et terminalvindue så du kan se installationen; derefter poppper dashboardet bare op i browseren, uden noget synligt terminalvindue.
+4. Valgfrit — eget ikon: marker `FlowaCommandCenter.app`, tryk **⌘I**, træk et billede (fx en udklip af logoet) op på ikonet øverst i info-vinduet.
+
+Der kører ikke noget i baggrunden, når du ikke bruger det — luk browserfanen og genstart/log ud af maskinen, så stopper serveren af sig selv. Klikker du på ikonet igen mens det allerede kører, åbner den bare endnu en browserfane i stedet for at fejle.
 
 ## Kom i gang (manuelt)
 
