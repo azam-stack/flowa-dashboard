@@ -4,8 +4,10 @@
  * mask, empty-state illustration, progress ring background — instead of
  * ten different ad-hoc shapes.
  */
+// Traced to match the logo's hand-drawn O: irregular, asymmetric, with the
+// distinctive inward pinch on the right side — not a generic rounded blob.
 const BLOB_PATH =
-  "M45.8,-58.3C58.4,-49.7,67,-34.9,70.6,-19C74.2,-3.1,72.9,13.9,65.6,28.1C58.3,42.3,45,53.7,29.9,61.3C14.8,68.9,-2.1,72.7,-18.4,69.6C-34.7,66.5,-50.4,56.5,-60.6,42.4C-70.8,28.3,-75.5,10.1,-73.2,-6.9C-70.9,-23.9,-61.6,-39.7,-48.4,-48.5C-35.2,-57.3,-18.1,-59.1,-0.6,-58.2C16.9,-57.3,33.2,-66.9,45.8,-58.3Z";
+  "M-5,-62C13,-64,34,-62,48,-48C58,-38,54,-28,46,-20C36,-10,22,-12,26,-2C30,8,50,4,50,22C50,38,36,36,26,46C16,56,4,64,-12,62C-30,60,-40,50,-46,36C-54,18,-58,4,-50,-14C-44,-28,-48,-38,-38,-48C-28,-58,-18,-60,-5,-62Z";
 
 interface BlobProps {
   className?: string;
