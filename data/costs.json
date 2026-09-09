@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cost-es",
+    "navn": "Instantly (email-infrastruktur)",
+    "beløb": 970,
+    "frekvens": "månedlig",
+    "kategori": "værktøj",
+    "clientId": null
+  },
+  {
+    "id": "cost-et",
+    "navn": "Apollo (data & prospektering)",
+    "beløb": 1490,
+    "frekvens": "månedlig",
+    "kategori": "data",
+    "clientId": null
+  },
+  {
+    "id": "cost-eu",
+    "navn": "Aircall (telefoni)",
+    "beløb": 640,
+    "frekvens": "månedlig",
+    "kategori": "værktøj",
+    "clientId": null
+  },
+  {
+    "id": "cost-ev",
+    "navn": "Domæner og DNS",
+    "beløb": 380,
+    "frekvens": "månedlig",
+    "kategori": "domæner",
+    "clientId": null
+  },
+  {
+    "id": "cost-ew",
+    "navn": "SDR-timer, Nordic Gears",
+    "beløb": 6200,
+    "frekvens": "månedlig",
+    "kategori": "løn",
+    "clientId": "client-nordicgears"
+  },
+  {
+    "id": "cost-ex",
+    "navn": "SDR-timer, Kolding Metal",
+    "beløb": 5400,
+    "frekvens": "månedlig",
+    "kategori": "løn",
+    "clientId": "client-koldingmetal"
+  },
+  {
+    "id": "cost-ey",
+    "navn": "Bogføring",
+    "beløb": 1200,
+    "frekvens": "månedlig",
+    "kategori": "andet",
+    "clientId": null
+  }
+]

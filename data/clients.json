@@ -1,0 +1,44 @@
+[
+  {
+    "id": "client-nordicgears",
+    "navn": "Nordic Gears ApS",
+    "kontaktperson": "Signe Lund",
+    "email": "signe@nordicgears.dk",
+    "startDato": "2026-04-30",
+    "kontraktSlut": "2027-04-30",
+    "opsigelsesvarsel": 30,
+    "retainerBeløb": 25000,
+    "performanceBeløbPrMøde": 1200,
+    "performanceUdløser": "afholdt",
+    "aftalteMøderPrMd": 12,
+    "icpBeskrivelse": "B2B SaaS-virksomheder, 50-500 ansatte, IT- og driftsansvarlige som beslutningstagere",
+    "kanaler": [
+      "email",
+      "telefon"
+    ],
+    "status": "aktiv",
+    "noter": "Sund kunde. Hurtig godkendelse, tæt dialog. God reference-case.",
+    "ownerId": "team-azam"
+  },
+  {
+    "id": "client-koldingmetal",
+    "navn": "Kolding Metal & Montage A/S",
+    "kontaktperson": "Henrik Boysen",
+    "email": "hb@koldingmetal.dk",
+    "startDato": "2026-05-31",
+    "kontraktSlut": "2026-10-26",
+    "opsigelsesvarsel": 30,
+    "retainerBeløb": 20000,
+    "performanceBeløbPrMøde": 1000,
+    "performanceUdløser": "godkendt",
+    "aftalteMøderPrMd": 10,
+    "icpBeskrivelse": "Produktionsvirksomheder 20-200 ansatte i Trekantområdet, driftschef eller indkøbschef",
+    "kanaler": [
+      "email",
+      "telefon"
+    ],
+    "status": "aktiv",
+    "noter": "Bagud på kvote i september. Høj afvisningsrate på ICP-match — kampagnen rammer for bredt. Kontrakt op til fornyelse om ~7 uger; skal vendes før den dato.",
+    "ownerId": "team-azam"
+  }
+]

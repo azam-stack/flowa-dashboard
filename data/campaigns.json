@@ -1,0 +1,74 @@
+[
+  {
+    "id": "camp-own-email",
+    "clientId": null,
+    "navn": "Flowa – eget salg (email)",
+    "kanal": "email",
+    "status": "aktiv",
+    "startDato": "2026-06-06",
+    "slutDato": null,
+    "målgruppeBeskrivelse": "Bureau-ejere og salgschefer i danske B2B-virksomheder 20-300 ansatte",
+    "antalProspectsIListen": 640,
+    "ownerId": "team-azam"
+  },
+  {
+    "id": "camp-own-phone",
+    "clientId": null,
+    "navn": "Flowa – eget salg (telefon)",
+    "kanal": "telefon",
+    "status": "aktiv",
+    "startDato": "2026-06-06",
+    "slutDato": null,
+    "målgruppeBeskrivelse": "Varme leads og henvisninger",
+    "antalProspectsIListen": 180,
+    "ownerId": "team-azam"
+  },
+  {
+    "id": "camp-nordicgears-email",
+    "clientId": "client-nordicgears",
+    "navn": "Nordic Gears — IT-beslutningstagere",
+    "kanal": "email",
+    "status": "aktiv",
+    "startDato": "2026-05-02",
+    "slutDato": null,
+    "målgruppeBeskrivelse": "IT- og driftsansvarlige i SaaS-virksomheder 50-500 ansatte",
+    "antalProspectsIListen": 1450,
+    "ownerId": "team-azam"
+  },
+  {
+    "id": "camp-nordicgears-phone",
+    "clientId": "client-nordicgears",
+    "navn": "Nordic Gears — opfølgningsopkald",
+    "kanal": "telefon",
+    "status": "aktiv",
+    "startDato": "2026-05-12",
+    "slutDato": null,
+    "målgruppeBeskrivelse": "Varme leads fra email-kampagnen",
+    "antalProspectsIListen": 310,
+    "ownerId": "team-azam"
+  },
+  {
+    "id": "camp-koldingmetal-email",
+    "clientId": "client-koldingmetal",
+    "navn": "Kolding Metal — driftschefer Trekanten",
+    "kanal": "email",
+    "status": "aktiv",
+    "startDato": "2026-06-02",
+    "slutDato": null,
+    "målgruppeBeskrivelse": "Driftschefer/indkøbschefer, produktion 20-200 ansatte",
+    "antalProspectsIListen": 980,
+    "ownerId": "team-azam"
+  },
+  {
+    "id": "camp-koldingmetal-phone",
+    "clientId": "client-koldingmetal",
+    "navn": "Kolding Metal — telefonopfølgning",
+    "kanal": "telefon",
+    "status": "aktiv",
+    "startDato": "2026-06-11",
+    "slutDato": null,
+    "målgruppeBeskrivelse": "Opfølgning på ubesvarede emails",
+    "antalProspectsIListen": 220,
+    "ownerId": "team-azam"
+  }
+]

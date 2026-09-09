@@ -1,0 +1,59 @@
+{
+  "valuta": "DKK",
+  "tidszone": "Europe/Copenhagen",
+  "arbejdsdage": [1, 2, 3, 4, 5],
+  "helligdage": [
+    "2026-01-01",
+    "2026-04-02",
+    "2026-04-03",
+    "2026-04-06",
+    "2026-05-01",
+    "2026-05-14",
+    "2026-05-25",
+    "2026-06-05",
+    "2026-12-24",
+    "2026-12-25",
+    "2026-12-26",
+    "2026-12-31"
+  ],
+  "regnskabsårStartMåned": 1,
+  "standardMål": {
+    "nyeKunderPrKvartal": 2,
+    "aktiveProspectsMål": 20
+  },
+  "alarmTærskler": {
+    "prospectStilstandDage": 10,
+    "tilbudOpfølgningDage": 4,
+    "kundeIngenLeveringDage": 7,
+    "opsigelsesvarselAdvarselDage": 30,
+    "godkendelsesrateAdvarselProcent": 80,
+    "godkendelsesrateKritiskProcent": 65,
+    "godkendelseAfventerAdvarselDage": 5,
+    "godkendelseAfventerKritiskDage": 9,
+    "afvisningsårsagStigningProcent": 25,
+    "positivSvarrateFaldProcent": 20,
+    "kampagneIngenMøderDage": 14,
+    "mailsPrMødeForværringProcent": 30,
+    "bounceRateAdvarselProcent": 3,
+    "bounceRateKritiskProcent": 5,
+    "kapacitetKritiskProcent": 90,
+    "fakturaForfaldenDage": 0,
+    "egetSalgLavAktivitetSamtalerPrUge": 3
+  },
+  "healthScore": {
+    "kritiskUnder": 45,
+    "advarselUnder": 65,
+    "vægte": {
+      "leveringsgrad": 0.45,
+      "godkendelsesrate": 0.35,
+      "dageSidenLeveretMøde": 0.2
+    }
+  },
+  "alarmVisning": {
+    "maksAntalSynlige": 5,
+    "gammelAlarmDageFørMarkeretSomLangvarig": 7
+  },
+  "kommandopalette": {
+    "genvej": "cmd+k"
+  }
+}

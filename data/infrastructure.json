@@ -1,0 +1,50 @@
+[
+  {
+    "id": "infra-eo",
+    "domæne": "flowaoutreach.dk",
+    "antalIndbakker": 5,
+    "warmupStatus": "klar",
+    "dagligSendekapacitet": 200,
+    "bounceRate7d": 1.4,
+    "spamklager": 0,
+    "status": "sund",
+    "oprettet": "2026-03-13",
+    "noter": ""
+  },
+  {
+    "id": "infra-ep",
+    "domæne": "flowaconnect.dk",
+    "antalIndbakker": 5,
+    "warmupStatus": "klar",
+    "dagligSendekapacitet": 200,
+    "bounceRate7d": 6.1,
+    "spamklager": 3,
+    "status": "brændt",
+    "oprettet": "2026-04-12",
+    "noter": "Bounce rate steget markant efter listeimport uden verificering. Sat på pause for nyt volumen."
+  },
+  {
+    "id": "infra-eq",
+    "domæne": "flowapipeline.dk",
+    "antalIndbakker": 4,
+    "warmupStatus": "klar",
+    "dagligSendekapacitet": 160,
+    "bounceRate7d": 2.1,
+    "spamklager": 0,
+    "status": "sund",
+    "oprettet": "2026-06-11",
+    "noter": ""
+  },
+  {
+    "id": "infra-er",
+    "domæne": "flowasales.dk",
+    "antalIndbakker": 3,
+    "warmupStatus": "klar",
+    "dagligSendekapacitet": 120,
+    "bounceRate7d": 0.9,
+    "spamklager": 0,
+    "status": "sund",
+    "oprettet": "2026-08-15",
+    "noter": ""
+  }
+]

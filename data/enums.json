@@ -1,0 +1,129 @@
+{
+  "clientStatus": [
+    { "key": "aktiv", "label": "Aktiv" },
+    { "key": "onboarding", "label": "Onboarding" },
+    { "key": "pause", "label": "Pause" },
+    { "key": "opsagt", "label": "Opsagt" }
+  ],
+  "performanceUdløser": [
+    { "key": "booket", "label": "Booket" },
+    { "key": "afholdt", "label": "Afholdt" },
+    { "key": "godkendt", "label": "Godkendt" }
+  ],
+  "kanal": [
+    { "key": "email", "label": "Email" },
+    { "key": "telefon", "label": "Telefon" }
+  ],
+  "prospectKilde": [
+    { "key": "cold_email", "label": "Cold email" },
+    { "key": "telefon", "label": "Telefon" },
+    { "key": "linkedin", "label": "LinkedIn" },
+    { "key": "netværk", "label": "Netværk" },
+    { "key": "henvisning", "label": "Henvisning" }
+  ],
+  "prospectStatus": [
+    { "key": "ny", "label": "Ny" },
+    { "key": "kontaktet", "label": "Kontaktet" },
+    { "key": "svar", "label": "Svar" },
+    { "key": "møde_booket", "label": "Møde booket" },
+    { "key": "møde_afholdt", "label": "Møde afholdt" },
+    { "key": "tilbud_sendt", "label": "Tilbud sendt" },
+    { "key": "vundet", "label": "Vundet" },
+    { "key": "tabt", "label": "Tabt" }
+  ],
+  "tabsårsag": [
+    { "key": "pris", "label": "Pris" },
+    { "key": "timing", "label": "Dårlig timing" },
+    { "key": "valgte_konkurrent", "label": "Valgte konkurrent" },
+    { "key": "intet_behov", "label": "Intet reelt behov" },
+    { "key": "intern_beslutning", "label": "Intern beslutning hos kunden" },
+    { "key": "ingen_respons", "label": "Ingen respons" },
+    { "key": "andet", "label": "Andet" }
+  ],
+  "campaignStatus": [
+    { "key": "planlagt", "label": "Planlagt" },
+    { "key": "aktiv", "label": "Aktiv" },
+    { "key": "pause", "label": "Pause" },
+    { "key": "afsluttet", "label": "Afsluttet" }
+  ],
+  "meetingStatus": [
+    { "key": "planlagt", "label": "Planlagt" },
+    { "key": "afholdt", "label": "Afholdt" },
+    { "key": "no_show", "label": "No-show" },
+    { "key": "aflyst", "label": "Aflyst" },
+    { "key": "flyttet", "label": "Flyttet" }
+  ],
+  "godkendelse": [
+    { "key": "afventer", "label": "Afventer godkendelse" },
+    { "key": "godkendt", "label": "Godkendt" },
+    { "key": "afvist", "label": "Afvist" }
+  ],
+  "afvisningsårsag": [
+    { "key": "forkert_icp", "label": "Forkert ICP" },
+    { "key": "ikke_beslutningstager", "label": "Ikke beslutningstager" },
+    { "key": "intet_reelt_behov", "label": "Intet reelt behov" },
+    { "key": "dårligt_timet", "label": "Dårligt timet" },
+    { "key": "kunde_dukkede_ikke_op", "label": "Kunden dukkede ikke op" }
+  ],
+  "invoiceStatus": [
+    { "key": "kladde", "label": "Kladde" },
+    { "key": "sendt", "label": "Sendt" },
+    { "key": "betalt", "label": "Betalt" },
+    { "key": "forfalden", "label": "Forfalden" }
+  ],
+  "infraStatus": [
+    { "key": "sund", "label": "Sund" },
+    { "key": "advarsel", "label": "Advarsel" },
+    { "key": "brændt", "label": "Brændt" }
+  ],
+  "warmupStatus": [
+    { "key": "opvarmning", "label": "Under opvarmning" },
+    { "key": "klar", "label": "Klar" }
+  ],
+  "costFrekvens": [
+    { "key": "månedlig", "label": "Månedlig" },
+    { "key": "kvartalsvis", "label": "Kvartalsvis" },
+    { "key": "årlig", "label": "Årlig" },
+    { "key": "engangs", "label": "Engangs" }
+  ],
+  "costKategori": [
+    { "key": "værktøj", "label": "Værktøj" },
+    { "key": "data", "label": "Data" },
+    { "key": "domæner", "label": "Domæner" },
+    { "key": "løn", "label": "Løn" },
+    { "key": "andet", "label": "Andet" }
+  ],
+  "taskPrioritet": [
+    { "key": "lav", "label": "Lav" },
+    { "key": "mellem", "label": "Mellem" },
+    { "key": "høj", "label": "Høj" },
+    { "key": "kritisk", "label": "Kritisk" }
+  ],
+  "taskStatus": [
+    { "key": "åben", "label": "Åben" },
+    { "key": "i_gang", "label": "I gang" },
+    { "key": "afsluttet", "label": "Afsluttet" }
+  ],
+  "gentagelse": [
+    { "key": "daglig", "label": "Daglig" },
+    { "key": "ugentlig", "label": "Ugentlig" },
+    { "key": "månedlig", "label": "Månedlig" }
+  ],
+  "knyttetTilType": [
+    { "key": "klient", "label": "Kunde" },
+    { "key": "prospect", "label": "Prospect" },
+    { "key": "møde", "label": "Møde" },
+    { "key": "kampagne", "label": "Kampagne" }
+  ],
+  "goalType": [
+    { "key": "omsætning", "label": "Omsætning" },
+    { "key": "møder", "label": "Møder" },
+    { "key": "kunder", "label": "Kunder" },
+    { "key": "prospects", "label": "Prospects" }
+  ],
+  "alertNiveau": [
+    { "key": "kritisk", "label": "Kritisk" },
+    { "key": "advarsel", "label": "Advarsel" },
+    { "key": "sund", "label": "Sund" }
+  ]
+}

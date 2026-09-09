@@ -1,0 +1,29 @@
+[
+  {
+    "id": "goal-fe",
+    "navn": "Nye kunder",
+    "type": "kunder",
+    "målværdi": 2,
+    "periode": "Q3 2026",
+    "periodeStart": "2026-07-01",
+    "periodeSlut": "2026-09-30"
+  },
+  {
+    "id": "goal-ff",
+    "navn": "Aktive prospects i pipeline",
+    "type": "prospects",
+    "målværdi": 20,
+    "periode": "Q3 2026",
+    "periodeStart": "2026-07-01",
+    "periodeSlut": "2026-09-30"
+  },
+  {
+    "id": "goal-fg",
+    "navn": "Omsætning",
+    "type": "omsætning",
+    "målværdi": 300000,
+    "periode": "Q3 2026",
+    "periodeStart": "2026-07-01",
+    "periodeSlut": "2026-09-30"
+  }
+]

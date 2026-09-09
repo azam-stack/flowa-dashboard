@@ -1,0 +1,79 @@
+[
+  {
+    "id": "invoice-eh",
+    "clientId": "client-nordicgears",
+    "måned": "2026-06",
+    "retainerBeløb": 25000,
+    "antalFaktureredeMøder": 11,
+    "performanceBeløb": 13200,
+    "total": 38200,
+    "status": "betalt",
+    "forfaldsdato": "2026-07-12"
+  },
+  {
+    "id": "invoice-ei",
+    "clientId": "client-nordicgears",
+    "måned": "2026-07",
+    "retainerBeløb": 25000,
+    "antalFaktureredeMøder": 12,
+    "performanceBeløb": 14400,
+    "total": 39400,
+    "status": "betalt",
+    "forfaldsdato": "2026-08-11"
+  },
+  {
+    "id": "invoice-ej",
+    "clientId": "client-nordicgears",
+    "måned": "2026-08",
+    "retainerBeløb": 25000,
+    "antalFaktureredeMøder": 13,
+    "performanceBeløb": 15600,
+    "total": 40600,
+    "status": "betalt",
+    "forfaldsdato": "2026-09-11"
+  },
+  {
+    "id": "invoice-ek",
+    "clientId": "client-nordicgears",
+    "måned": "2026-09",
+    "retainerBeløb": 25000,
+    "antalFaktureredeMøder": 0,
+    "performanceBeløb": 0,
+    "total": 25000,
+    "status": "kladde",
+    "forfaldsdato": "2026-09-29"
+  },
+  {
+    "id": "invoice-el",
+    "clientId": "client-koldingmetal",
+    "måned": "2026-07",
+    "retainerBeløb": 20000,
+    "antalFaktureredeMøder": 9,
+    "performanceBeløb": 9000,
+    "total": 29000,
+    "status": "betalt",
+    "forfaldsdato": "2026-08-11"
+  },
+  {
+    "id": "invoice-em",
+    "clientId": "client-koldingmetal",
+    "måned": "2026-08",
+    "retainerBeløb": 20000,
+    "antalFaktureredeMøder": 4,
+    "performanceBeløb": 4000,
+    "total": 24000,
+    "status": "forfalden",
+    "forfaldsdato": "2026-09-03"
+  },
+  {
+    "id": "invoice-en",
+    "clientId": "client-koldingmetal",
+    "måned": "2026-09",
+    "retainerBeløb": 20000,
+    "antalFaktureredeMøder": 0,
+    "performanceBeløb": 0,
+    "total": 20000,
+    "status": "kladde",
+    "forfaldsdato": "2026-09-29"
+  }
+]

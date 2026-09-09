@@ -1,0 +1,200 @@
+[
+  {
+    "id": "task-ez",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-30",
+    "gentagelse": null,
+    "knyttetTil": {
+      "type": "prospect",
+      "id": "prospect-8"
+    },
+    "titel": "Ring til Martin hos Nordwind",
+    "forfaldsdato": "2026-09-09",
+    "prioritet": "høj",
+    "status": "åben"
+  },
+  {
+    "id": "task-f0",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-27",
+    "gentagelse": null,
+    "knyttetTil": {
+      "type": "prospect",
+      "id": "prospect-p"
+    },
+    "titel": "Følg op på tilbud til Kolding Logistik",
+    "forfaldsdato": "2026-09-08",
+    "prioritet": "høj",
+    "status": "åben"
+  },
+  {
+    "id": "task-f1",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-09-03",
+    "gentagelse": "ugentlig",
+    "knyttetTil": null,
+    "titel": "Gennemgå ugens outreach-tal",
+    "forfaldsdato": "2026-09-09",
+    "prioritet": "mellem",
+    "status": "åben"
+  },
+  {
+    "id": "task-f2",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-30",
+    "gentagelse": "ugentlig",
+    "knyttetTil": null,
+    "titel": "Opdater prospect-liste med nye emner",
+    "forfaldsdato": "2026-09-10",
+    "prioritet": "lav",
+    "status": "åben"
+  },
+  {
+    "id": "task-f3",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-23",
+    "gentagelse": null,
+    "knyttetTil": {
+      "type": "klient",
+      "id": "client-nordicgears"
+    },
+    "titel": "Send statusmail til Nordic Gears",
+    "forfaldsdato": "2026-09-11",
+    "prioritet": "mellem",
+    "status": "åben"
+  },
+  {
+    "id": "task-f4",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-21",
+    "gentagelse": null,
+    "knyttetTil": {
+      "type": "møde",
+      "id": "meeting-ef"
+    },
+    "titel": "Godkend afventende møder hos Kolding Metal",
+    "forfaldsdato": "2026-09-09",
+    "prioritet": "kritisk",
+    "status": "åben"
+  },
+  {
+    "id": "task-f5",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-09-05",
+    "gentagelse": "daglig",
+    "knyttetTil": null,
+    "titel": "Dagligt tjek: nye svar i indbakken",
+    "forfaldsdato": "2026-09-09",
+    "prioritet": "mellem",
+    "status": "åben"
+  },
+  {
+    "id": "task-f6",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-25",
+    "gentagelse": null,
+    "knyttetTil": {
+      "type": "klient",
+      "id": "client-koldingmetal"
+    },
+    "titel": "Book kvartalsgennemgang med Kolding Metal",
+    "forfaldsdato": "2026-09-14",
+    "prioritet": "høj",
+    "status": "åben"
+  },
+  {
+    "id": "task-f7",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-24",
+    "gentagelse": null,
+    "knyttetTil": null,
+    "titel": "Verificér ny prospect-liste før upload",
+    "forfaldsdato": "2026-09-06",
+    "prioritet": "mellem",
+    "status": "afsluttet"
+  },
+  {
+    "id": "task-f8",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-27",
+    "gentagelse": "månedlig",
+    "knyttetTil": null,
+    "titel": "Betal Apollo-faktura",
+    "forfaldsdato": "2026-09-19",
+    "prioritet": "lav",
+    "status": "åben"
+  },
+  {
+    "id": "task-f9",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-27",
+    "gentagelse": null,
+    "knyttetTil": null,
+    "titel": "Skriv caseudkast baseret på Nordic Gears-resultater",
+    "forfaldsdato": "2026-09-17",
+    "prioritet": "lav",
+    "status": "åben"
+  },
+  {
+    "id": "task-fa",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-09-08",
+    "gentagelse": null,
+    "knyttetTil": {
+      "type": "klient",
+      "id": "client-koldingmetal"
+    },
+    "titel": "Gennemgå afviste møder for mønster i årsager",
+    "forfaldsdato": "2026-09-09",
+    "prioritet": "høj",
+    "status": "åben"
+  },
+  {
+    "id": "task-fb",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-28",
+    "gentagelse": null,
+    "knyttetTil": null,
+    "titel": "Ryd op i domæne flowaconnect.dk (brændt)",
+    "forfaldsdato": "2026-09-07",
+    "prioritet": "kritisk",
+    "status": "åben"
+  },
+  {
+    "id": "task-fc",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-24",
+    "gentagelse": "ugentlig",
+    "knyttetTil": null,
+    "titel": "Forbered ugentlig gennemgang til fredag",
+    "forfaldsdato": "2026-09-11",
+    "prioritet": "mellem",
+    "status": "åben"
+  },
+  {
+    "id": "task-fd",
+    "beskrivelse": "",
+    "ownerId": "team-azam",
+    "oprettetDato": "2026-08-27",
+    "gentagelse": null,
+    "knyttetTil": null,
+    "titel": "Følg op på LinkedIn-henvisning fra netværk",
+    "forfaldsdato": "2026-09-12",
+    "prioritet": "lav",
+    "status": "åben"
+  }
+]

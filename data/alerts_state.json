@@ -1,0 +1,9 @@
+[
+  {
+    "alarmId": "seed-example-snooze",
+    "udsatTil": "2026-09-12",
+    "begrundelse": "Afventer svar fra kunden, ingen grund til at handle før fredag.",
+    "udsatAf": "team-azam",
+    "tidspunkt": "2026-09-09T10:43:51.055Z"
+  }
+]
