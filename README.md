@@ -4,14 +4,33 @@ Internt driftsdashboard for Flowa (appointment setting-bureau). Viser vores eget
 
 Designprincip: **decision-first**. Enhver skærm skal fortælle dig hvad et tal betyder og hvad du gør ved det — ikke bare vise tallet. Se `lib/alerts.ts` og `lib/next-actions.ts`, som er systemets "hjerne": rene, testede funktioner der beregner alarmer og den næste bedste handling ud fra data og `settings.json`.
 
-## Kom i gang
+## Se det hver morgen
+
+**Første gang** (kun én gang, på den maskine du vil bruge det på):
+
+```bash
+git clone https://github.com/azam-stack/flowa-dashboard.git
+cd flowa-dashboard
+```
+
+**Hver morgen derefter** — dobbeltklik på startfilen for dit system, eller kør den fra terminalen:
+
+- macOS: `start.command`
+- Windows: `start.bat`
+- Linux / terminal: `./start.sh`
+
+Den installerer kun dependencies første gang, og åbner derefter automatisk `http://localhost:5173` i din browser. Luk terminalvinduet (eller tryk Ctrl+C) for at lukke dashboardet igen — der kører ikke noget i baggrunden når du ikke har det åbent.
+
+Vil du gøre det endnu hurtigere: læg en genvej til `start.command`/`start.bat` på dit skrivebord eller i din menubar/proceslancering, så det er ét klik.
+
+## Kom i gang (manuelt)
 
 ```bash
 npm install
 npm run dev
 ```
 
-Det starter både Vite (frontend, `:5173`) og Express-serveren (API, `:4000`) samtidig. Åbn `http://localhost:5173`.
+Det starter både Vite (frontend, `:5173`) og Express-serveren (API, `:4000`) samtidig og åbner browseren automatisk.
 
 Andre kommandoer:
 
