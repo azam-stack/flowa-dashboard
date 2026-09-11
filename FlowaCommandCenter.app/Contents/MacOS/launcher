@@ -9,7 +9,11 @@ cd "$REPO_ROOT"
 
 LOG="/tmp/flowa-dashboard.log"
 
-if [ ! -d node_modules ]; then
+if [ -d .git ]; then
+  git pull --ff-only origin claude/flowa-command-center-zl99qw >> "$LOG" 2>&1 || true
+fi
+
+if [ ! -d node_modules ] || [ "package-lock.json" -nt "node_modules" ]; then
   # First run: open a visible Terminal so install progress isn't invisible.
   osascript <<EOF
 tell application "Terminal"
